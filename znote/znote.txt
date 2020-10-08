@@ -1,0 +1,32 @@
+goose mysql "root:@tcp(fiber-db)/fiber-api?charset=utf8" status
+
+go mod init gogo
+
+
+
+https://github.com/go-chi/chi
+https://awesome-go.com/
+https://fs02.github.io/rel/
+
+
+
+
+
+https://github.com/rubenv/sql-migrate
+https://medium.com/what-i-talk-about-when-i-talk-about-technology/a-db-migration-tool-for-go-rubenv-sql-migrate-718872ab9528
+
+
+
+https://blog.logrocket.com/express-style-api-go-fiber/
+https://docs.gofiber.io/
+
+
+
+---------
+https://www.tma.vn/Hoi-dap/Cam-nang-nghe-nghiep/Kien-truc-sach-voi-Golang/22031
+https://manuel.kiessling.net/2012/09/28/applying-the-clean-architecture-to-go-applications/
+https://blog.logrocket.com/express-style-api-go-fiber/
+
+
+
+https://github.com/avelino/awesome-go#machine-learning

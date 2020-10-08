@@ -1,0 +1,39 @@
+go get -u github.com/spf13/cobra/cobra@v1.0.0
+
+cobra init chatbot --pkg-name pandog/chatbot
+
+
+https://www.netlify.com/blog/2016/09/06/creating-a-microservice-boilerplate-in-go/
+
+
+https://api.slack.com/apps
+
+https://github.com/slack-go/slack
+https://golangcode.com/send-slack-messages-without-a-library/
+
+Client Id
+1354681527796.1348499049762
+
+Client Secret
+cbe5f1d9d2b6498f8ce46bcc6aa26f6f
+
+
+Signing Secret
+1154deccfa68bfa75af5b1d0a388b83f
+
+
+Verification Token
+dR5sjLaQMn4mIjHHhavka2Qw
+
+
+https://api.slack.com/apps/A01A8EP1FNE/oauth?
+Bot User OAuth Access Token
+xoxb-1354681527796-1372351238576-JlSV4f77dQ6kuq1CshbZfHnT
+
+
+
+https://api.slack.com/apps/A01A8EP1FNE/incoming-webhooks?success=1
+https://api.slack.com/bot-users#bots-overview
+
+
+curl -X POST -H 'Content-type: application/json' --data '{"text":"Allow me to reintroduce myself!"}' https://hooks.slack.com/services/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

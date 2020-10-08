@@ -1,0 +1,26 @@
+version: '3.3'
+services:
+  app:
+    container_name: go-app
+    build:
+      context: .
+      dockerfile: docker/golang/Dockerfile
+    ports:
+      - 4321:4000
+    # command: air
+    volumes:
+      - ./src:/app/src
+    working_dir: /app/src
+    tty: true
+  # mysql:
+  #   container_name: go-mysql
+  #   image: mysql:5.7.22
+  #   volumes:
+  #     - ./docker/mysql/:/docker-entrypoint-initdb.d/
+  #     - ./docker/mysql/my.cnf:/etc/mysql/conf.d/my.cnf
+  #     - ./tmp/mysql/data:/var/lib/mysql
+  #   environment:
+  #     - MYSQL_DATABASE=fiber-api
+  #     - MYSQL_ALLOW_EMPTY_PASSWORD=yes
+  #   ports:
+  #     - 3306:3306

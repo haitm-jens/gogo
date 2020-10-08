@@ -1,0 +1,13 @@
+go get -u github.com/spf13/cobra/cobra@v1.0.0
+
+
+https://sbstjn.com/create-golang-cli-application-with-cobra-and-goxc.html
+https://www.linode.com/docs/development/go/using-cobra/
+https://dzone.com/articles/how-to-create-a-cli-in-go-in-few-minutes
+https://blog.gopheracademy.com/advent-2014/introducing-cobra/
+
+
+https://tutorialedge.net/golang/building-a-cli-in-go/
+
+https://qiita.com/nirasan/items/cc2ab5bc2889401fe596
+https://www.bookstack.cn/read/cobra/spilt.9.spilt.4.README.md
